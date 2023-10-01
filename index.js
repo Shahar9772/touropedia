@@ -23,7 +23,7 @@ app.use('/users', userRouter);
 app.use('/tour', tourRouter);
 
 app.get('/', (req, res) => {
-  res.send('Welcome to tour API - version 2');
+  res.send('Welcome to tour API - version 3');
 });
 
 mongoose
